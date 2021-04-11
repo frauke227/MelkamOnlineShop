@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Beyaynetu (for 6 people)",
+        "price": 24.99,
+        "image": { "fields": { "file": { "url": "./images/Beyaynetu.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Doro Wot (for 4 people)",
+        "price": 16.99,
+        "image": { "fields": { "file": { "url": "./images/DoroWot.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Key Wot (for 4 people)",
+        "price": 15.99,
+        "image": { "fields": { "file": { "url": "./images/KeyWot.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Kik Wot (for 4 people)",
+        "price": 13.99,
+        "image": { "fields": { "file": { "url": "./images/KikWot.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Mehaberawi (for 6 people)",
+        "price": 24.99,
+        "image": { "fields": { "file": { "url": "./images/Mehaberawi.JPG" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Misr Wot (for 4 people)",
+        "price": 15.99,
+        "image": { "fields": { "file": { "url": "./images/MisrWot.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Shiro (for 4 people)",
+        "price": 15.99,
+        "image": { "fields": { "file": { "url": "./images/Shiro.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Gutschein",
+        "price": 10.00,
+        "image": { "fields": { "file": { "url": "./images/Gutschein.jpg" } } }
+      }
+    }
+  ]
+}
