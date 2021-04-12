@@ -41,6 +41,7 @@ body {
 }
 .nav-icon {
   font-size: 1.5rem;
+  float: right;
 }
 .cart-btn {
   position: relative;
@@ -321,6 +322,10 @@ footer {
   color: var(--primaryColor);
 }
 
+.legal a {
+  color: var(--primaryColor);
+}
+
 .legal a:hover {
   color: var(--mainWhite);
 }
@@ -329,6 +334,12 @@ footer {
 .advantages {
   text-align: center;
   margin-left: 2rem;
+}
+
+.advantages h2,
+.recommendation h2,
+.explanation h1 {
+  color: var(--primaryColor);
 }
 .section-title h2 {
   text-align: center;
@@ -404,4 +415,9 @@ footer {
 
 .about p {
   text-align: justify;
+}
+
+.about h1,
+.about h2 {
+  color: var(--primaryColor);
 }

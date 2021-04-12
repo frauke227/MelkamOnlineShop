@@ -9,7 +9,7 @@ const cartItems = document.querySelector('.cart-items');
 const cartTotal = document.querySelector('.cart-total');
 const cartContent = document.querySelector('.cart-content');
 const productsDOM = document.querySelector('.products-center');
-const linkToShop = document.querySelector('.shop-link')
+
 //cart
 let cart = [];
 
@@ -102,12 +102,13 @@ class UI {
                 <div>
                     <h4>${item.title}</h4>
                     <h5>${item.price}€</h5>
-                    <span class="remove-item" data-it=${item.id}>remove</span>
+                    <span class="remove-item" data-id=${item.id}>remove</span>
                 </div>
+                <!-- item functionality -->
                 <div>
-                    <i class="fas fa-chevron-up" data-it=${item.id}></i>
+                    <i class="fas fa-chevron-up" data-id=${item.id}></i>
                     <p class="item-amount">${item.amount}</p>
-                    <i class="fas fa-chevron-down" data-it=${item.id}></i>
+                    <i class="fas fa-chevron-down" data-id=${item.id}></i>
                 </div>`;
                 cartContent.appendChild(div)
                 console.log(cartContent)
@@ -140,6 +141,7 @@ class UI {
                 let removeItem = event.target;
                 let id = removeItem.dataset.id;
                 cartContent.removeChild(removeItem.parentElement.parentElement);
+                //remove item
                 this.removeItem(id);
             } else if (event.target.classList.contains("fa-chevron-up")) {
                 let addAmount = event.target;
@@ -224,6 +226,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 });
 
 // Link button to shop
-linkToShop.addEventListener('click', () => {
+const linkToShop = document.querySelector('.shop-link')
+linkToShop.forEach(addEventListener('click', () => {
     location.href = "shop.html"
-})
+}))
